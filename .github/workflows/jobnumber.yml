@@ -21,5 +21,5 @@ jobs:
       - run: python jobnumber.py
         env:
           PIPEDRIVE_API_TOKEN: ${{ secrets.PIPEDRIVE_API_TOKEN }}
-          PIPEDRIVE_JOB_FIELD_KEY: ${{ secrets.PIPEDRIVE_JOB_FIELD_KEY }}
           PIPEDRIVE_COMPANY_DOMAIN: ${{ secrets.PIPEDRIVE_COMPANY_DOMAIN }}
+          PIPEDRIVE_JOB_FIELD_NAME: ${{ secrets.PIPEDRIVE_JOB_FIELD_NAME }}
